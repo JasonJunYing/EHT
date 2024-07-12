@@ -3,7 +3,7 @@
   1. Single cell sequencing data analysis:  
      To investigate the endocardial-to-haematopoietic transition (EHT) after heart injury, we integrated 6 published zebrafish single-cell RNA sequencing datasets containing steady-state and injured heart samples at different post-injury timepoints: 1) [GSE138181](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE138181) (Koth); 2) [GSE153170](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE153170) (Bakker); 3) [GSE172511](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE172511) (Sun); 4) [GSE159032](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159032) and [GSE158919](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE158919) (Hu); 5) [GSE188511](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE188511) (Kapuria); and 6) [GSE145980](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE145980) (Ma).
      
-     These datasets were first preprocessed and analysed separatedly [preprocessing](./preprocessing). Main steps included: 1)Quality control; 2)Normalization (10000 final counts, log-transformed); 3)Cell Cycle Assignment; 4)Select highly variable genes; 5)PCA and UMAP calculation
+     These datasets were first preprocessed and analysed separatedly ([preprocessing])(./preprocessing). Main steps included: 1)Quality control; 2)Normalization (10000 final counts, log-transformed); 3)Cell Cycle Assignment; 4)Select highly variable genes; 5)PCA and UMAP calculation
      
      Then, these datasets were integrated by normalized counts and used to conduct [Combined_analysis](Combined_analysis.ipynb):    
   (1) Highly variable genes selection (min_mean=0.02, max_mean=3, min_disp=0.3)  
