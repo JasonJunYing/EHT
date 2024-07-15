@@ -28,7 +28,8 @@ Scar lineage tracing information was obtained from the GEO database [GSE159032](
 (3) [Visulization](./lineage/lineage_directed_graph.R)  
 
 3.[Trajectory analysis](./trajectory):  
-(1) [PAGA (Partition-based graph abstraction)](./trajectory/EHT_PAGA.ipynb):  
+To investigate the possible transition between clusters, we conducted PAGA (Partition-based graph abstraction) and FateID analysis on wild-type cells:   
+(1) [PAGA](./trajectory/EHT_PAGA.ipynb):  
 	1)PAGA calculation  
   2)Filtering and positioning  
 (2) [FateID](./trajectory/EHT_FateID_analysis.ipynb):  
