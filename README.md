@@ -36,7 +36,7 @@ Scar lineage tracing information was obtained from the GEO database [GSE159032](
   2)Fate probability calculation  
   3)Fate bias visualization  
 
-4.Background contamination analysis (SoupX):  
+4.[Background contamination analysis (SoupX)](./SoupX):  
 To investigate the influence of the soup contamination on the gene expression evaluation, we conducted contamination analysis using SoupX on the representative datasets:  
 (1) [GSE138181_All (WT/runx1KO, 0/3dpi)](./SoupX/SoupX-Koth-All.ipynb)  
 (2) [GSE159032_GSM4817944 (WT_3dpi)](./SoupX/SoupX-Hu-WT-3dpi.ipynb)  
