@@ -14,9 +14,12 @@
 
       To investigate the EHT clusters, leiden clustering was performed directly or with the 'restrict_to' parameters [(Subcluster_definition.ipynb)](Subcluster_definition.ipynb).Also, to further investigate the inflammatory response in the endocardium after heart injury, the normalized counts of the endocardial cells from Hu et al’s data were extracted and re-analysed [(Endo_subcluster.ipynb)](Endo_subcluster.ipynb).  
   
-      The rank-gene-groups function in Scanpy was used to identify marker genes for each subcluster with the method set to ’t-test'. The plots were generated using the umap/dotplot plotting functions in Scanpy:  
-  (1) Figure xxx  
-  (2) xxx  
+      The rank-gene-groups function in Scanpy was used to identify marker genes for each subcluster with the method set to ’t-test'. The plots were generated using the umap/dotplot plotting functions in Scanpy [(EHT_plottings.ipynb)](EHT_plottings.ipynb):  
+  (1) Figure 1 (D-G)  
+  (2) Figure 2 (A,B,D)   
+  (3) Figure 3  
+  (5) Figure 6 (C,F)  
+  (6) Figure 7 (A,B,C,E)  
 
 2.[Lineage analysis](./lineage):  
 Scar lineage tracing information was obtained from the GEO database [GSE159032](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159032). Lineage tree construction was performed using the R script Iterative_tree_building.R in the original manuscript, excluding the DMSO/IWR/morphine treatment samples:  
@@ -25,15 +28,23 @@ Scar lineage tracing information was obtained from the GEO database [GSE159032](
 (3) Visulization (xxx.ipynb)  
 
 3.[Trajectory analysis](./trajectory):  
-(1) [PAGA (Partition-based graph abstraction)](./trajectory/EHT_PAGA.ipynb)  
+(1) [PAGA (Partition-based graph abstraction)](./trajectory/EHT_PAGA.ipynb):  
+	1)PAGA calculation  
+  2)Filtering and positioning  
 (2) [Cellrank](./trajectory/EHT_Cellrank.ipynb)  
-(3) [FateID](./trajectory/EHT_FateID_analysis.ipynb)  
+(3) [FateID](./trajectory/EHT_FateID_analysis.ipynb):  
+  1)Cluster definition  
+  2)Fate probability calculation  
+  3)Fate bias visualization  
 
 4.[Background contamination analysis (SoupX)](./SoupX):  
 To investigate the influence of the soup contamination on the gene expression evaluation, we conducted contamination analysis using SoupX on the representative datasets:  
 (1) [GSE138181_All (WT/runx1KO, 0/3dpi)](./SoupX/SoupX-Koth-All.ipynb)  
 (2) [GSE159032_GSM4817944 (WT_3dpi)](./SoupX/SoupX-Hu-WT-3dpi.ipynb)  
-(3) [GSE145980_GSM4340641 (WT,7dpi)](./SoupX/SoupX-Ma-WT-7dpi-1)  
+Main steps include:  
+  1)Contamination probability prediction  
+  2)Non-expressing cluster definition  
+  3)Soup fraction evalutaion  
 
 The scripts for data type conversion between R and Python could be found in [conversions](./conversions).
 
