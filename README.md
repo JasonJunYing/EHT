@@ -31,8 +31,7 @@ Scar lineage tracing information was obtained from the GEO database [GSE159032](
 (1) [PAGA (Partition-based graph abstraction)](./trajectory/EHT_PAGA.ipynb):  
 	1)PAGA calculation  
   2)Filtering and positioning  
-(2) [Cellrank](./trajectory/EHT_Cellrank.ipynb)  
-(3) [FateID](./trajectory/EHT_FateID_analysis.ipynb):  
+(2) [FateID](./trajectory/EHT_FateID_analysis.ipynb):  
   1)Cluster definition  
   2)Fate probability calculation  
   3)Fate bias visualization  
