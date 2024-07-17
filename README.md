@@ -21,13 +21,13 @@
   (5) Figure 6 (C,F)  
   (6) Figure 7 (A,B,C,E)  
 
-2.[Lineage analysis](./lineage):  
+2.[Lineage analysis](./lineage) (Figure 4C(Adjustment awaiting)):  
 Scar lineage tracing information was obtained from the GEO database [GSE159032](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159032). Lineage tree construction was performed using the R script Iterative_tree_building.R in the original manuscript, excluding the DMSO/IWR/morphine treatment samples:  
 (1) [Iterative_tree_building](./lineage/Iterative_tree_building.ipynb)  
 (2) [Calculate transition probablities](./lineage/lineage_analysis.R)  
 (3) [Visulization](./lineage/lineage_directed_graph.R)  
 
-3.[Trajectory analysis](./trajectory):  
+3.[Trajectory analysis](./trajectory) (Figure 4D-F(Adjustment awaiting)):  
 To investigate the possible transition between clusters, we conducted PAGA (Partition-based graph abstraction) and FateID analysis on wild-type cells:   
 (1) [PAGA](./trajectory/EHT_PAGA.ipynb):  
 	1)PAGA calculation  
