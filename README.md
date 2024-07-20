@@ -67,7 +67,7 @@ Main steps include:
 6.[Bridging clusters analysis](./bridging_clusters_analysis) (Supplementary Figure 2):  
 To investigate the clusters connecting between the endocardial cells, leukocytes and thrombocytes, we further subclustered Leiden_v2 clusters and checked their:  
 ·   (1) [Gene expression](./bridging_clusters_analysis/bridging_clusters_analysis.ipynb)    
-·   (2) [Proportions over time](proportion_anlaysis_combined_bridge.R)  
+·   (2) [Proportions over time](./bridging_clusters_analysis/proportion_anlaysis_combined_bridge.R)  
 
 The scripts for data type conversion between R and Python could be found in [conversions](./conversions).
 
