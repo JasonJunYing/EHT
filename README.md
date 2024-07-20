@@ -55,7 +55,7 @@ To understand the role of runx1 in EHT, we interrogated the Koth et al 2020 data
   1)[Re-analysis and subclustering](./runx1_analysis/Koth_Endo_Cells) (Figure 6D, Supplementary Figure 5C)    
   2)[Psuedotime analysis](./runx1_analysis/Koth_Endo_Cells_CellRank) (Figure 6E)  
 
-5.[Background contamination analysis (SoupX)](./SoupX):  
+5.[Background contamination analysis (SoupX)](./SoupX) (Supplementary Figure 4C):  
 To investigate the influence of the soup contamination on the gene expression evaluation, we conducted contamination analysis using SoupX on the representative datasets:  
 ·   (1) [GSE138181_All (WT/runx1KO, 0/3dpi)](./SoupX/SoupX-Koth-All.ipynb)  
 ·   (2) [GSE159032_GSM4817944 (WT_3dpi)](./SoupX/SoupX-Hu-WT-3dpi.ipynb)  
