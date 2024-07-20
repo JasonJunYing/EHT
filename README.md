@@ -28,22 +28,22 @@
 Scar lineage tracing information was obtained from the GEO database [GSE159032](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159032). Lineage tree construction was performed using the R script Iterative_tree_building.R in the original manuscript, excluding the DMSO/IWR/morphine treatment samples:  
 ·   (1) [Iterative_tree_building](./lineage/Iterative_tree_building.ipynb)  
 ·   (2) [Calculate transition probablities](./lineage/lineage_analysis.R)  
-·   (3) [Visulization](./lineage/lineage_directed_graph.R) (Figure 3B)  
+·   (3) [Visulization](./lineage/lineage_directed_graph.R) (Figure 4B)  
 
 3.[Trajectory analysis](./trajectory):  
 To investigate the possible transition between clusters, we conducted PAGA (Partition-based graph abstraction) and FateID analysis on wild-type cells:   
 ·   (1) [PAGA](./trajectory/EHT_PAGA.ipynb):  
   1)PAGA calculation  
-  2)Filtering and positioning (Figure 3A)  
+  2)Filtering and positioning (Figure 4A)  
 ·   (2) [FateID](./trajectory/EHT_FateID_analysis.ipynb):  
   1)Cluster definition  
   2)Fate probability calculation  
-  3)Fate bias visualization  
+  3)Fate bias visualization (Figure 4E,4F)  
 ·   (3) [Cellrank](./trajectory/EHT_Cellrank.ipynb):  
   1)Diffusion map calculation   
   2)Root cell selection (Supplementary Figure 6C)  
-  3)Diffusion pseudotime calculation (Figure 3D)  
-  4)Transition matrix calculation (pseudotime kernel) (Figure 3C)  
+  3)Diffusion pseudotime calculation (Figure 4D)  
+  4)Transition matrix calculation (pseudotime kernel) (Figure 4C)  
 
 4.[runx1 functional analysis](./runx1_analysis):  
 To understand the role of runx1 in EHT, we interrogated the Koth et al 2020 data set clustering in integrated data set:  
