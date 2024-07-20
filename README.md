@@ -48,12 +48,12 @@ To investigate the possible transition between clusters, we conducted PAGA (Part
 4.[runx1 functional analysis](./runx1_analysis):  
 To understand the role of runx1 in EHT, we interrogated the Koth et al 2020 data set clustering in integrated data set:  
 ·   (1) [Koth data overview](./runx1_analysis/Koth_All_Cells.ipynb) (Supplementary Figure 5A,5B)  
-·   (2) [runx1-citrine,kdrl-mCherry] double-positive cells analysis:  
+·   (2) (runx1-citrine,kdrl-mCherry) double-positive cells analysis:  
   1)[Re-analysis and subclustering](./runx1_analysis/Koth_DoublePositive_Cells.ipynb) (Figure 6A)   
   2)[Psuedotime analysis](./runx1_analysis/Integrated_zebrafish.ipynb) (Figure 6B,6C)   
 ·   (3) Endocardial cells analysis  
-  1)[Re-analysis and subclustering](./runx1_analysis/Koth_Endo_Cells) (Figure 6D, Supplementary Figure 5C)    
-  2)[Psuedotime analysis](./runx1_analysis/Koth_Endo_Cells_CellRank) (Figure 6E)  
+  1)[Re-analysis and subclustering](./runx1_analysis/Koth_Endo_Cells.ipynb) (Figure 6D, Supplementary Figure 5C)    
+  2)[Psuedotime analysis](./runx1_analysis/Koth_Endo_Cells_CellRank.ipynb) (Figure 6E)  
 
 5.[Background contamination analysis (SoupX)](./SoupX) (Supplementary Figure 4C):  
 To investigate the influence of the soup contamination on the gene expression evaluation, we conducted contamination analysis using SoupX on the representative datasets:  
